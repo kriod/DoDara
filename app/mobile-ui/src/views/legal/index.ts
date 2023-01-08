@@ -1,0 +1,1 @@
+export { LegalView } from "./Legal";

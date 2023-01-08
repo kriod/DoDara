@@ -1,0 +1,1 @@
+export {ExerciseResultView} from "./ExerciseResult";

@@ -1,0 +1,1 @@
+export { LegalDetailsView } from "./LegalDetails";

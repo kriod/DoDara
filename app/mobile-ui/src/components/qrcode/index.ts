@@ -1,0 +1,1 @@
+export { QrCodeComponent } from "./Qrcode";

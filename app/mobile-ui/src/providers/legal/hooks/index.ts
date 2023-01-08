@@ -1,0 +1,1 @@
+export { useLegal} from "./useLegal";

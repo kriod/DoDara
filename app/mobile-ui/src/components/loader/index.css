@@ -1,0 +1,36 @@
+.loader-wrapper .loader-animation-wrapper > .loader-line {
+}
+
+@keyframes in-progress-animation {
+  from {
+    transform: scaleX(0.15);
+  }
+  to {
+    transform: scaleX(0.5);
+  }
+}
+
+.loader-wrapper
+  .loader-animation-wrapper
+  > .loader-line.loader-in-progress-animation {
+  animation-name: in-progress-animation;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes complete-animation {
+  to {
+    height: 100vh;
+  }
+}
+
+.loader-wrapper
+  .loader-animation-wrapper
+  > .loader-line.loader-complete-animation {
+  animation-name: complete-animation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+}
